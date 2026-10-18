@@ -22,7 +22,7 @@ The app processes data you enter or that is created during setup:
 - **Initialisation letter** as PDF.
 - **Activity log:** time and type of orders sent and the bank's responses. It contains neither keys nor passphrase.
 
-**Location:** `~/Library/Application Support/EbicsStart/` on your Mac. The key file is encrypted with your passphrase (AES-256). The passphrase is stored in the macOS Keychain. Files are readable only by your user account.
+**Location:** `~/Library/Application Support/EbicsStart/` on your Mac (in the Mac App Store version inside the app's container, `~/Library/Containers/com.etonec.EbicsStart/Data/Library/Application Support/EbicsStart/`). The key file is encrypted with your passphrase (AES-256). The passphrase is stored in the macOS Keychain. Files are readable only by your user account.
 
 This data leaves your Mac only in the cases described in sections 4 and 5. We have no access to it.
 
@@ -55,7 +55,7 @@ When you obtain the app through the Mac App Store, Apple processes data (e.g. Ap
 
 ## 8. Retention and deletion
 
-Data stays until you delete it. In the app, right-click a connection and choose "Delete Connection…", which removes the key file, letter and stored passphrase from this Mac. Deleting the app itself leaves the folder `~/Library/Application Support/EbicsStart/` in place; you can remove it manually. Delete the Keychain item "EbicsStart key passphrase" in Keychain Access. Previously exported files, and data held by your bank, must be deleted separately.
+Data stays until you delete it. In the app, right-click a connection and choose "Delete Connection…", which removes the key file, letter and stored passphrase from this Mac. Deleting the app itself leaves the data folder in place (in the Mac App Store version the container `~/Library/Containers/com.etonec.EbicsStart/`); you can remove it manually. Delete the Keychain item "EbicsStart key passphrase" in Keychain Access. Previously exported files, and data held by your bank, must be deleted separately.
 
 ## 9. Your rights
 

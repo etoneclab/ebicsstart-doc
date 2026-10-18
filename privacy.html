@@ -40,9 +40,11 @@ file.</li>
 bank’s responses. It contains neither keys nor passphrase.</li>
 </ul>
 <p><strong>Location:</strong>
-<code>~/Library/Application Support/EbicsStart/</code> on your Mac. The
-key file is encrypted with your passphrase (AES-256). The passphrase is
-stored in the macOS Keychain. Files are readable only by your user
+<code>~/Library/Application Support/EbicsStart/</code> on your Mac (in
+the Mac App Store version inside the app’s container,
+<code>~/Library/Containers/com.etonec.EbicsStart/Data/Library/Application Support/EbicsStart/</code>).
+The key file is encrypted with your passphrase (AES-256). The passphrase
+is stored in the macOS Keychain. Files are readable only by your user
 account.</p>
 <p>This data leaves your Mac only in the cases described in sections 4
 and 5. We have no access to it.</p>
@@ -86,11 +88,12 @@ no personal data from this. Apple’s privacy policy applies.</p>
 <h2 id="retention-and-deletion">8. Retention and deletion</h2>
 <p>Data stays until you delete it. In the app, right-click a connection
 and choose “Delete Connection…”, which removes the key file, letter and
-stored passphrase from this Mac. Deleting the app itself leaves the
-folder <code>~/Library/Application Support/EbicsStart/</code> in place;
-you can remove it manually. Delete the Keychain item “EbicsStart key
-passphrase” in Keychain Access. Previously exported files, and data held
-by your bank, must be deleted separately.</p>
+stored passphrase from this Mac. Deleting the app itself leaves the data
+folder in place (in the Mac App Store version the container
+<code>~/Library/Containers/com.etonec.EbicsStart/</code>); you can
+remove it manually. Delete the Keychain item “EbicsStart key passphrase”
+in Keychain Access. Previously exported files, and data held by your
+bank, must be deleted separately.</p>
 <h2 id="your-rights">9. Your rights</h2>
 <p>Because we do not process personal data about you, we cannot provide
 access, rectification or erasure from our own records. Towards your bank
