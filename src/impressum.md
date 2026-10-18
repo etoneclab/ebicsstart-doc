@@ -8,7 +8,8 @@ Möckernstr. 120
 
 Vertreten durch: Marcus Nasarek
 
-Kontakt: E-Mail: info@sideos.io\
+Kontakt:
+E-Mail: info@sideos.io
 Telefon: +49 (0)30-57713973
 
 Registergericht und Registernummer: Amtsgericht Charlottenburg (Berlin), HRB 231427 B
