@@ -5,7 +5,7 @@ Stand: 18. Oktober 2026
 ## 1. Verantwortlicher
 
 sideos GmbH
-Emrichstr. 25, 12587 Berlin, Germany
+Möckernstr. 120, 10963 Berlin, Germany
 E-Mail: privacy@sideos.io
 
 ## 2. Kurzfassung

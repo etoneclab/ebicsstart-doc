@@ -5,7 +5,7 @@ Last updated: 18 October 2026
 ## 1. Controller
 
 sideos GmbH
-Emrichstr. 25, 12587 Berlin, Germany
+Möckernstr. 120, 10963 Berlin, Germany
 Email: privacy@sideos.io
 
 ## 2. Summary
