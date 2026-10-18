@@ -22,7 +22,7 @@ Die App verarbeitet die Daten, die Sie eingeben oder die bei der Einrichtung ent
 - **Initialisierungsbrief** als PDF.
 - **Aktivitätsprotokoll:** Zeitpunkt und Art gesendeter Aufträge sowie Antworten der Bank. Es enthält weder Schlüssel noch Passphrase.
 
-**Speicherort:** `~/Library/Application Support/EbicsStart/` auf Ihrem Mac (in der Version aus dem Mac App Store im App-Container `~/Library/Containers/com.etonec.EbicsStart/Data/Library/Application Support/EbicsStart/`). Die Schlüsseldatei ist mit Ihrer Passphrase verschlüsselt (AES-256). Die Passphrase liegt im macOS-Schlüsselbund. Die Dateien sind nur für Ihr Benutzerkonto lesbar.
+**Speicherort:** `~/Library/Application Support/EbicsStart/` auf Ihrem Mac (in der Version aus dem Mac App Store im App-Container `~/Library/Containers/com.etonec.ebicsstart/Data/Library/Application Support/EbicsStart/`). Die Schlüsseldatei ist mit Ihrer Passphrase verschlüsselt (AES-256). Die Passphrase liegt im macOS-Schlüsselbund. Die Dateien sind nur für Ihr Benutzerkonto lesbar.
 
 Diese Daten verlassen Ihren Mac nur in den unter Ziffer 4 und 5 beschriebenen Fällen. Wir haben darauf keinen Zugriff.
 
@@ -55,7 +55,7 @@ Beim Bezug der App über den Mac App Store verarbeitet Apple Daten (z. B. Apple-
 
 ## 8. Speicherdauer und Löschung
 
-Die Daten bleiben, bis Sie sie löschen. In der App entfernen Sie eine Verbindung per Rechtsklick auf „Delete Connection…“. Dabei werden Schlüsseldatei, Brief und gespeicherte Passphrase von diesem Mac gelöscht. Beim Löschen der App selbst bleibt der Datenordner bestehen (in der Mac-App-Store-Version der Container `~/Library/Containers/com.etonec.EbicsStart/`) und kann von Ihnen manuell entfernt werden. Den Schlüsselbund-Eintrag „EbicsStart key passphrase“ löschen Sie in der Schlüsselbundverwaltung. Bereits exportierte Dateien und bei der Bank gespeicherte Daten löschen Sie bzw. Ihre Bank gesondert.
+Die Daten bleiben, bis Sie sie löschen. In der App entfernen Sie eine Verbindung per Rechtsklick auf „Delete Connection…“. Dabei werden Schlüsseldatei, Brief und gespeicherte Passphrase von diesem Mac gelöscht. Beim Löschen der App selbst bleibt der Datenordner bestehen (in der Mac-App-Store-Version der Container `~/Library/Containers/com.etonec.ebicsstart/`) und kann von Ihnen manuell entfernt werden. Den Schlüsselbund-Eintrag „EbicsStart key passphrase“ löschen Sie in der Schlüsselbundverwaltung. Bereits exportierte Dateien und bei der Bank gespeicherte Daten löschen Sie bzw. Ihre Bank gesondert.
 
 ## 9. Ihre Rechte
 
