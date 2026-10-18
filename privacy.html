@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – EbicsStart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a href="index.html">EbicsStart</a>
+<nav><a href="privacy.html">Privacy</a> <a href="datenschutz.html">Datenschutz</a> <a href="support.html">Support</a> <a href="impressum.html">Impressum</a></nav></header>
+<main>
+<h1 id="privacy-policy-ebicsstart">Privacy Policy – EbicsStart</h1>
+<p>Last updated: 18 October 2026</p>
+<h2 id="controller">1. Controller</h2>
+<p>sideos GmbH<br />
+Emrichstr. 25, 12587 Berlin, Germany<br />
+Email: privacy@sideos.io</p>
+<h2 id="summary">2. Summary</h2>
+<p>EbicsStart is a local macOS app. We do <strong>not</strong> collect,
+store or receive any personal data about you. There are no user
+accounts, no analytics or tracking services, no advertising, and no
+servers operated by us that the app talks to. All data stays on your
+Mac. The app sends data only to the EBICS address of your bank, which
+you enter yourself.</p>
+<h2 id="data-the-app-processes-on-your-mac">3. Data the app processes on
+your Mac</h2>
+<p>The app processes data you enter or that is created during setup:</p>
+<ul>
+<li><strong>Connection details:</strong> connection name, bank name,
+EBICS URL, Host ID, Partner ID, User ID, optionally company name, letter
+language.</li>
+<li><strong>Cryptographic keys and certificates:</strong> signature,
+authentication and encryption keys (private and public parts) and the
+public bank keys fetched from the bank.</li>
+<li><strong>Passphrase:</strong> the passphrase you choose for the key
+file.</li>
+<li><strong>Initialisation letter</strong> as PDF.</li>
+<li><strong>Activity log:</strong> time and type of orders sent and the
+bank’s responses. It contains neither keys nor passphrase.</li>
+</ul>
+<p><strong>Location:</strong>
+<code>~/Library/Application Support/EbicsStart/</code> on your Mac. The
+key file is encrypted with your passphrase (AES-256). The passphrase is
+stored in the macOS Keychain. Files are readable only by your user
+account.</p>
+<p>This data leaves your Mac only in the cases described in sections 4
+and 5. We have no access to it.</p>
+<h2 id="transmission-to-your-bank">4. Transmission to your bank</h2>
+<p>When you trigger an action in the app (“Check server”, “Send INI and
+HIA”, “Check Activation”, “Fetch Bank Keys Again”), the app sends an
+EBICS message to the <strong>EBICS URL you entered</strong>. Depending
+on the action, it contains:</p>
+<ul>
+<li>Host ID, Partner ID, User ID,</li>
+<li>your <strong>public</strong> keys and certificates (INI, HIA),</li>
+<li>a signature created with your private key (HPB).</li>
+</ul>
+<p>Private keys and the passphrase are not transmitted. The only
+recipient is your bank, which is responsible for its own processing; its
+privacy policy applies. Transmission uses the connection provided by the
+bank (HTTPS). Legal basis is carrying out the setup you requested (Art.
+6(1)(b) GDPR, to the extent we were a controller at all, which we are
+not, since we do not process the data ourselves).</p>
+<h2 id="export">5. Export</h2>
+<p>“Export JSON…” writes the connection to a file in a location of your
+choice. <strong>The file contains your private keys
+unencrypted.</strong> What you do with it is entirely up to you.
+Transfer it only through a secure channel and delete copies you no
+longer need.</p>
+<h2 id="what-we-do-not-do">6. What we do not do</h2>
+<ul>
+<li>No collection of usage or diagnostic data, no crash reports sent to
+us.</li>
+<li>No analytics, advertising or tracking SDKs.</li>
+<li>No sharing of data with third parties, no sale of data.</li>
+<li>No access to contacts, location, camera, microphone or photos.</li>
+</ul>
+<p>Note: if you have enabled sharing of diagnostics with Apple in macOS,
+Apple may receive crash reports under its own terms. We have no
+influence over this.</p>
+<h2 id="app-store">7. App Store</h2>
+<p>When you obtain the app through the Mac App Store, Apple processes
+data (e.g. Apple ID, purchase data) as a separate controller. We receive
+no personal data from this. Apple’s privacy policy applies.</p>
+<h2 id="retention-and-deletion">8. Retention and deletion</h2>
+<p>Data stays until you delete it. In the app, right-click a connection
+and choose “Delete Connection…”, which removes the key file, letter and
+stored passphrase from this Mac. Deleting the app itself leaves the
+folder <code>~/Library/Application Support/EbicsStart/</code> in place;
+you can remove it manually. Delete the Keychain item “EbicsStart key
+passphrase” in Keychain Access. Previously exported files, and data held
+by your bank, must be deleted separately.</p>
+<h2 id="your-rights">9. Your rights</h2>
+<p>Because we do not process personal data about you, we cannot provide
+access, rectification or erasure from our own records. Towards your bank
+you have the rights under the GDPR (access, rectification, erasure,
+restriction, portability, objection). You also have the right to lodge a
+complaint with a data protection supervisory authority.</p>
+<p>For questions, contact us at privacy@sideos.io. If you write to us,
+we process your email address and message only to answer your request
+(Art. 6(1)(f) GDPR).</p>
+<h2 id="changes">10. Changes</h2>
+<p>We will update this policy if the app or the law changes. The version
+currently published applies.</p>
+</main>
+</body>
+</html>
